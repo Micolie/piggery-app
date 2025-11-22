@@ -76,8 +76,7 @@ app/src/main/java/com/piggery/app/
 
 ## Permissions Required
 
-- **Camera**: For taking pig photos
-- **Storage**: For saving and loading photos (API < 29)
+- **Camera**: For taking pig photos (photos are saved to internal app storage, no external storage access needed)
 
 ## Future Features (Not Yet Implemented)
 

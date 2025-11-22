@@ -45,7 +45,6 @@
 
     <!-- Permissions -->
     <string name="camera_permission_required">Camera permission is required to take photos</string>
-    <string name="storage_permission_required">Storage permission is required</string>
 
     <!-- Pig Details -->
     <string name="kg">kg</string>
