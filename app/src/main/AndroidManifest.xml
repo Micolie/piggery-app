@@ -3,17 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Camera permission for photo documentation -->
+    <!-- Note: We only use camera to take photos, not accessing photo gallery -->
+    <!-- Photos are stored in internal app storage, no external storage access needed -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
-        android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="28"
-        tools:ignore="ScopedStorage" />
 
     <application
         android:name=".PiggeryApplication"

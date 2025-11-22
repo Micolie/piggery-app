@@ -23,4 +23,7 @@
     <color name="status_sold">#FF2196F3</color>
     <color name="status_deceased">#FFF44336</color>
     <color name="status_quarantine">#FFFF9800</color>
+
+    <!-- Launcher icon -->
+    <color name="ic_launcher_background">#FF8B4513</color>
 </resources>
